@@ -1,4 +1,6 @@
 # Load function for Advanced Jump Pack
+# Announce pack load
+tellraw @a {"text":"[Advanced Jump Pack] Datapack loaded","color":"green"}
 # Initialize scoreboards
 scoreboard objectives add jumpCount dummy
 scoreboard objectives add inAir dummy
