@@ -1,2 +1,3 @@
 # Propel player upward for powerful second jump
-execute at @s run tp @s ~ ~8.0 ~
+# Apply a stronger jump boost instead of teleporting
+effect give @s minecraft:jump_boost 20 2 true
